@@ -1,0 +1,11 @@
+{
+  "name": "clickup-cli",
+  "version": "0.1.0",
+  "description": "CLI do ClickUp (API v2): tasks, comentários, goals e key results, links, dependências, tags, custom fields. Zero dependência.",
+  "type": "module",
+  "bin": { "clickup": "bin/clickup.mjs" },
+  "files": ["bin", "src", "skills", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test \"test/*.test.mjs\"" },
+  "license": "MIT"
+}
